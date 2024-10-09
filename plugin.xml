@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+                id="cordova-plugin-ignore-lint-instantiatable"
+                version="0.0.1">
+
+    <name>cordova-plugin-ignore-lint-instantiatable</name>
+    <description>Ignores Android Instantiatable Gradle lintVitalRelease task</description>
+    <license>Proprietary</license>
+
+    <engines>
+		<engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+	<platform name="android">
+		<framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
+	</platform>
+</plugin>

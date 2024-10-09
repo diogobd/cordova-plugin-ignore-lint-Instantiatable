@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-ignore-lint-instantiatable",
+  "version": "0.0.1",
+  "description": "Ignores Android Instantiatable Gradle lintVitalRelease task",
+  "main": "plugin.xml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diogobd",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diogobd/cordova-plugin-ignore-lint-instantiatable"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "plugin",
+    "ignore",
+    "lint",
+    "translation"
+  ],
+  "bugs": {
+    "url": "https://github.com/diogobd/cordova-plugin-ignore-lint-instantiatable/issues"
+  },
+  "homepage": "https://github.com/diogobd/cordova-plugin-ignore-lint-instantiatable"
+}
