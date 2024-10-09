@@ -2,4 +2,7 @@ android {
     lintOptions {
         disable "Instantiatable"
     }
+    defaultConfig {
+        multiDexEnabled true
+    }
 }
